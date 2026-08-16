@@ -1,0 +1,31 @@
+{
+  "catalogVersion": 1,
+  "collections": [
+    {
+      "id": "sample-book-1",
+      "mediaType": "audiobook",
+      "titleEn": "Sample Audiobook One",
+      "titleAm": "የናሙና የድምፅ መጽሐፍ አንድ",
+      "creatorName": "Author Name",
+      "languageCode": "am",
+      "descriptionEn": "A sample Amharic audiobook.",
+      "descriptionAm": "የአማርኛ የድምፅ መጽሐፍ ናሙና።",
+      "coverPath": "covers/sample-book-1.webp",
+      "licenseName": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://example.com",
+      "published": true,
+      "tracks": [
+        {
+          "id": "sample-book-1-track-1",
+          "trackNumber": 1,
+          "titleEn": "Full Audiobook",
+          "titleAm": "ሙሉ የድምፅ መጽሐፍ",
+          "audioPath": "001-full-book.mp3",
+          "durationSeconds": 3600,
+          "downloadable": true
+        }
+      ]
+    }
+  ]
+}
